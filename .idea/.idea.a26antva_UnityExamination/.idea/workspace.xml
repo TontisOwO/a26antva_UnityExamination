@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a06921e-925b-4b62-b0ec-34f0c4206e1a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/PlayerSprites/EntropiaAttack2-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/PlayerSprites/EntropiaAttack2-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/PlayerSprites/EntropiaDodge-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/PlayerSprites/EntropiaDodge-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/PlayerSprites/EntropiaHurt-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/PlayerSprites/EntropiaHurt-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/PlayerSprites/EntropiaIlde-Sheet-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/PlayerSprites/EntropiaIlde-Sheet-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/PlayerSprites/EntropiaJump-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/PlayerSprites/EntropiaJump-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/PlayerSprites/EntropiaJump2-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/PlayerSprites/EntropiaJump2-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/PlayerSprites/EntropiaJumpAttack-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/PlayerSprites/EntropiaJumpAttack-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/PlayerSprites/EntropiaJumpAttack2-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/PlayerSprites/EntropiaJumpAttack2-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/PlayerSprites/EntropiaRun-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/PlayerSprites/EntropiaRun-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/PlayerSprites/EntropiaSuper-Sheet-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/PlayerSprites/EntropiaSuper-Sheet-Sheet.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerAnimations.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6,
@@ -87,7 +95,7 @@
       <workItem from="1795178346562" duration="5000" />
       <workItem from="1795178357051" duration="105000" />
       <workItem from="1795178478708" duration="2000" />
-      <workItem from="1795178485540" duration="973000" />
+      <workItem from="1795178485540" duration="1705000" />
     </task>
     <servers />
   </component>
