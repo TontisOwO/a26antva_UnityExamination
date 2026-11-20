@@ -197,4 +197,9 @@ public class PlatformerMovement : MonoBehaviour
             jumpInput = false;
         }
     }
+    
+    public void ApplyForce(Vector2 force)
+    {
+        velocity += force;
+    }
 }
