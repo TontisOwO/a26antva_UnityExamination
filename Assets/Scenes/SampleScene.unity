@@ -505,6 +505,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3301186320657938637, guid: 90f91b642c284cc4ea09679d29f581a8, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 1115600144}
     - target: {fileID: 8322602152564360320, guid: 90f91b642c284cc4ea09679d29f581a8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.751587
@@ -8212,6 +8216,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3301186320657938637, guid: 90f91b642c284cc4ea09679d29f581a8, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 1115600144}
     - target: {fileID: 8322602152564360320, guid: 90f91b642c284cc4ea09679d29f581a8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.180255
@@ -8269,6 +8277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3301186320657938637, guid: 90f91b642c284cc4ea09679d29f581a8, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 1115600144}
     - target: {fileID: 8322602152564360320, guid: 90f91b642c284cc4ea09679d29f581a8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.5224922
@@ -9008,8 +9020,9 @@ GameObject:
   - component: {fileID: 1115600141}
   - component: {fileID: 1115600143}
   - component: {fileID: 1115600142}
+  - component: {fileID: 1115600144}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Counter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9134,6 +9147,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1115600140}
   m_CullTransparentMesh: 1
+--- !u!114 &1115600144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115600140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8cb8245bcd155545bc1ea9697814576, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Counter
+  text: {fileID: 1115600142}
+  destroyedObjects: 0
 --- !u!1001 &1139242896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9146,6 +9173,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3301186320657938637, guid: 90f91b642c284cc4ea09679d29f581a8, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 1115600144}
     - target: {fileID: 8322602152564360320, guid: 90f91b642c284cc4ea09679d29f581a8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.313391
@@ -9203,6 +9234,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3301186320657938637, guid: 90f91b642c284cc4ea09679d29f581a8, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 1115600144}
     - target: {fileID: 8322602152564360320, guid: 90f91b642c284cc4ea09679d29f581a8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.6244917
@@ -9339,6 +9374,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3301186320657938637, guid: 90f91b642c284cc4ea09679d29f581a8, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 1115600144}
     - target: {fileID: 8322602152564360320, guid: 90f91b642c284cc4ea09679d29f581a8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.7144117
@@ -9560,6 +9599,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box
       objectReference: {fileID: 0}
+    - target: {fileID: 3301186320657938637, guid: 90f91b642c284cc4ea09679d29f581a8, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 1115600144}
     - target: {fileID: 8322602152564360320, guid: 90f91b642c284cc4ea09679d29f581a8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.493
@@ -9616,12 +9659,12 @@ SceneRoots:
   - {fileID: 1929907508}
   - {fileID: 773922734}
   - {fileID: 8802213953076159157}
-  - {fileID: 1761813087}
-  - {fileID: 202826077}
-  - {fileID: 1360921754}
   - {fileID: 1209825604}
   - {fileID: 809489188}
   - {fileID: 1699152471}
   - {fileID: 765892543}
   - {fileID: 1139242896}
   - {fileID: 812427307}
+  - {fileID: 1761813087}
+  - {fileID: 202826077}
+  - {fileID: 1360921754}
