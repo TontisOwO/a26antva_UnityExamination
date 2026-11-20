@@ -43,7 +43,7 @@ public class PlatformerMovement : MonoBehaviour
         // Set gravity scale to 0 so player won't "fall" 
         rb.gravityScale = 0;
 
-        //animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
     }
     
     void Update()
@@ -92,6 +92,24 @@ public class PlatformerMovement : MonoBehaviour
         isGrounded = IsGrounded();
         ApplyGravity();
         rb.linearVelocity = velocity;
+        
+        if (rb.linearVelocityY < 0)
+        {
+            animator.SetBool("Falling", true);
+            animator.SetBool("Jumping", false);
+        }
+        if (isGrounded)
+        {
+            animator.SetBool("Falling", false);
+        }
+
+        if (rb.linearVelocityX == 0)
+        {
+            animator.SetBool("Moving", false);
+        }
+        
+        animator.SetBool("OnGround", isGrounded);
+        
         
         // Write movement animation code here. (Suggestion: send your current velocity into the Animator for both the x- and y-axis.)
     }
@@ -152,6 +170,7 @@ public class PlatformerMovement : MonoBehaviour
         if (controlEnabled)
         {
             moveInput = context.ReadValue<Vector2>().normalized;
+            animator.SetBool("Moving", true);
         }
         else
         {
@@ -168,6 +187,8 @@ public class PlatformerMovement : MonoBehaviour
             Debug.Log("Jump!");
             jumpInput = true;
             jumpReleased = false;
+            animator.SetBool("Jumping", true);
+            animator.SetBool("Falling", false);
         }
 
         if (context.canceled && controlEnabled)

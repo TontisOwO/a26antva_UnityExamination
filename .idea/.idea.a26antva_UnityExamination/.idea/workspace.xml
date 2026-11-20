@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a06921e-925b-4b62-b0ec-34f0c4206e1a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.a26antva_UnityExamination/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.a26antva_UnityExamination/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Graphics/Animation/PlayerAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Animation/PlayerAnimator.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Animation/PlayerIdle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Animation/PlayerIdle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Animation/PlayerMove.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Animation/PlayerMove.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/BackgroundSprites/PropsAngelOfJustice.aseprite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/BackgroundSprites/PropsAngelOfJustice.aseprite.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlatformerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerAnimations.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerAnimations.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +95,7 @@
       <workItem from="1795178346562" duration="5000" />
       <workItem from="1795178357051" duration="105000" />
       <workItem from="1795178478708" duration="2000" />
-      <workItem from="1795178485540" duration="2110000" />
+      <workItem from="1795178485540" duration="4946000" />
     </task>
     <servers />
   </component>
